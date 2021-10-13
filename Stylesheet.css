@@ -1,0 +1,65 @@
+<!DOCTYPE CSS>
+html
+{
+    font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+nav li
+{
+    display:inline-block;
+    margin-right:1em;
+    margin-bottom:.25em
+}
+h1
+{
+  font-size: 24px;
+  line-height: 26px;
+  color: #f04c25;
+  font-weight: 600;
+}
+figure
+{
+  float: left;
+  margin: 0 20px 20px 0;
+}
+h2
+{
+  font-size: 18px;
+  line-height: 20px;
+  color: #009cab;
+  font-weight: normal;
+}
+h3
+{
+    font-size: xx-large;
+    outline: #f04c25;
+    outline-style: double;
+    color: #2f4f4f;
+    text-decoration: underline
+}
+h4
+{
+    font-size: larger;
+    color: #556b2f
+}
+p
+{
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  font-weight: 300;
+  width: 960px;
+}
+p2 
+{
+    font-size: 14px;
+    line-height: 25px;
+    font-style: oblique;
+    width: fit-content
+}

@@ -20,6 +20,7 @@ nav li {
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 2%;
+  text-decoration: none;
   padding: 1%;
   height: 75%;
   border: 1px solid #548c8b;
@@ -49,7 +50,7 @@ h2 {
 }
 h3 {
   font-size: xx-large;
-  outline: #f04c25;
+  outline: #548c8b;
   outline-style: double;
   text-decoration: underline;
 }
@@ -78,7 +79,7 @@ picture {
   margin: 0;
 }
 article1 {
-  margin: 5;
+  margin: 5px;
   height: auto;
   overflow: scroll;
 }
@@ -127,4 +128,7 @@ a {
   body {
     font-size: 1.125rem;
   }
+}
+article {
+  margin-left: 10px;
 }

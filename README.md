@@ -15,3 +15,5 @@ Several commits, consisting of:
 - Removal of CV page and added a pdf of my resumé.
 - Added a contact form to page contact, and updated my professional social media
 - Redesigned projects. Added pages for old and current projects.
+- added folder structure for clarity
+- moved files to correct folders.

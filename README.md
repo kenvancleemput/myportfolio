@@ -20,4 +20,6 @@ Several commits, consisting of:
 
 # Wednesday 03/11
 
-    First commit: - changed contact to a form.
+    First commit: Changed contact to a form.
+    Second commit: Added stylesheet for form and post demo file from Lars
+    Third commit: Added pages for different projects with images, some styling for those.

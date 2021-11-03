@@ -89,3 +89,9 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
+a:focus,
+a:hover {
+  color: #525559;
+  background-color: #a69856;
+  text-decoration: underline;
+}

@@ -14,7 +14,6 @@ form {
 nav {
   margin-left: 25%;
   width: 100%;
-  text-decoration: none;
   height: 100%;
   margin-top: 25px;
 }
@@ -29,13 +28,13 @@ nav li {
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 2%;
-  text-decoration: none;
   padding: 1%;
   height: 75%;
   border: 1px solid #548c8b;
 }
 nav > ul > li > a {
   color: #a69856;
+  text-decoration: none;
 }
 h1 {
   font-size: 90px;

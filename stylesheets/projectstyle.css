@@ -21,13 +21,13 @@ nav li {
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 2%;
-  text-decoration: none;
   padding: 1%;
   height: 75%;
   border: 1px solid #548c8b;
 }
 nav > ul > li > a {
   color: #a69856;
+  text-decoration: none;
 }
 h1 {
   font-size: 90px;
@@ -42,6 +42,17 @@ article {
   width: calc(33% - 20px);
   margin: 20px 10px;
   vertical-align: top;
+}
+.one-third > a,
+.one-third > p {
+  text-decoration: none;
+  color: #a69856;
+}
+.one-third:focus,
+.one-third:hover {
+  color: #525559;
+  background-color: #a69856;
+  text-decoration: underline;
 }
 a:focus,
 a:hover {

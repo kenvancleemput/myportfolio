@@ -17,3 +17,7 @@ Several commits, consisting of:
 - Redesigned projects. Added pages for old and current projects.
 - added folder structure for clarity
 - moved files to correct folders.
+
+# Wednesday 03/11
+
+    First commit: - changed contact to a form.

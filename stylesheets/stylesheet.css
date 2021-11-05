@@ -18,6 +18,7 @@ nav ul {
   height: 100%;
 }
 nav li {
+  font-family: "Zen Antique Soft", serif;
   display: inline-block;
   margin-right: 2%;
   margin-bottom: 2%;

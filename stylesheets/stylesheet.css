@@ -1,5 +1,6 @@
 html {
-  font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   background-color: #525559;
   color: #d9ca82;
 }
@@ -29,6 +30,7 @@ nav > ul > li > a {
   text-decoration: none;
 }
 h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-size: 90px;
   line-height: 26px;
   font-weight: 600;
@@ -39,20 +41,13 @@ h1 {
   font-size: 50px;
 }
 h2 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-size: 18px;
   line-height: 20px;
   font-weight: normal;
 }
-h3 {
-  font-size: xx-large;
-  outline: #548c8b;
-  outline-style: double;
-  text-decoration: underline;
-}
-h4 {
-  font-size: larger;
-}
 p {
+  font-family: "Zen Antique Soft", serif;
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
@@ -73,8 +68,8 @@ td {
 }
 blockquote,
 dd {
-  padding-left: 250px;
-  font-display: center;
+  margin: auto;
+  width: fit-content;
 }
 dd {
   margin-bottom: 1em;
@@ -90,6 +85,7 @@ picture {
   max-width: 100%;
   margin: 0 auto;
   float: inline-start;
+  clear: left;
 }
 a {
   color: #a69856;

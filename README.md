@@ -23,3 +23,7 @@ Several commits, consisting of:
     First commit: Changed contact to a form.
     Second commit: Added stylesheet for form and post demo file from Lars
     Third commit: Added pages for different projects with images, some styling for those.
+
+# Tuesday 09/11
+
+    - Added github to page text.

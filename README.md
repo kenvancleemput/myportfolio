@@ -27,3 +27,9 @@ Several commits, consisting of:
 # Tuesday 09/11
 
     - Added github to page text.
+
+# Wednesday 08/12
+
+    - Added nav bar to projects
+    - Corrected class tag for header
+    - created class .mainnav

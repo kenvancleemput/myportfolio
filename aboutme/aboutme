@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <meta charset="UTF-8" />
+  <title>Ken Van Cleemput</title>
+</head>
+
+<body>
+  <header>
+    <h1>
+      Ken Van Cleemput
+    </h1>
+    <p class="subtitle">
+      Student graduate degree programming
+    </p>
+    <nav>
+      <ul>
+        <li><a href="">About me</a></li>
+        <li><a href="projects/projects.html">Projecten</a></li>
+        <li><a href="werkplekleren/werkplekleren.html">Werkplekleren</a></li>
+        <li><a href="contacts/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <figure>
+        <img src="images/Ken05112021.jpg" alt="foto van Ken Van Cleemput" />
+      </figure>
+    </aside>
+    
+
+    <article>
+      <section>
+      <h2>
+        <strong>Over mij</strong>
+      </h2>
+      <p>
+        Ik ben student aan <a href="https://www.thomasmore.be/opleidingen/graduaat/programmeren-dag-avondonderwijs/programmeren-dagonderwijs/antwerpen">Thomas More</a> in het <strong>Graduaat
+          Programmeren</strong>. Ik ben geboren in 1980, en woon in <em>Berchem</em>.
+      </p>
+      <p>
+        In mijn vrije tijd probeer ik dagelijks een wandeling te doen. Ik lees ook veel voor mijn ontspanning, en speel
+        met vrienden veel rollenspelen. Ik heb ook twee katten die regelmatig mijn aandacht opeisen.
+      </p>
+      </section>
+      <section>
+      <h2>
+        <strong>Een beetje geschiedenis</strong>
+      </h2>
+      <p>
+        In het verleden heb ik 13 jaar als boekhouder gewerkt voor verschillende multinationals, voornamelijk in de
+        scheepsvaart sector. Door de toenemende automatisering die daar de komende twintig jaar nog gaat doorgevoerd
+        worden vond ik het een goed idee om me een ander vakgebied eigen te maken. De kans bestaat ook dat ik na mijn
+        huidige studie's mijn twee vakgebieden ga combineren. Mijn cv kan je <a href="pdf/CVKVC.pdf">hier</a> downloaden en mijn linkedin pagina kan je<a href="https://www.linkedin.com/in/ken-van-cleemput-29b21689/">  hier</a> vinden. Ik ben ook op <a href="https://github.com/kenvancleemput/myportfolio">github</a> te vinden, waar de gegevens van deze website staan.
+      </p>
+      </section>
+      <section>
+      <h2><strong>Ambities</strong>
+      </h2>
+      <p>Zoals iedereen wel heb ik nog een aantal dingen die ik in mijn leven wil bereiken. Buiten de onhaalbare dingen focust zich dat bij mij voornamelijk op een aantal
+        persoonlijke doelen. Zo hoop ik ooit nog een boek te schrijven en zou een periode in het buitenland werken me
+        ook wel bevallen.</p>
+      </section>
+      <section>
+      <blockquote><em>
+          “It's not worth doing something unless someone, somewhere, would much rather you weren't doing it.”</em><br>
+        <cite> <a href="</cite></blockquote>https://quotepark.com/quotes/1037124-terry-pratchett-its-not-worth-doing-something-unless-someone-som/">Terry Pratchett</a>
+      </section>
+    </article>
+  </main>
+</body>
+
+</html>

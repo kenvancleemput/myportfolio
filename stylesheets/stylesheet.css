@@ -1,14 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html {
   font-family: "Zen Antique Soft", serif;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   background-color: #525559;
   color: #d9ca82;
 }
-nav {
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  position: relative;
   margin-left: 25%;
-  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.nav-toggle-label span,
+.nav-toggle-label::before,
+.nav-toggle-label::after {
+  display: block;
+  background: #a69856;
+  height: 2px;
+  width: 2em;
+}
+.nav-toggle-label::before,
+.nav-toggle-label::after {
+  content: "";
+  position: absolute;
+}
+.nav-toggle-label::before {
+  bottom: 7px;
+}
+.nav-toggle-label::after {
+  top: 7px;
+}
+.navbar {
+  margin-left: 25%;
+  width: 75%;
   height: 100%;
-  margin-top: 25px;
+  margin-top: 5%;
+  display: none;
 }
 nav ul {
   list-style: none;
@@ -30,7 +64,10 @@ nav > ul > li > a {
   color: #a69856;
   text-decoration: none;
 }
-h1 {
+.nav-toggle:checked ~ nav {
+  display: block;
+}
+.title {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-size: 90px;
   line-height: 26px;
@@ -39,7 +76,9 @@ h1 {
 .subtitle {
   display: block;
   margin-left: 12.5%;
+  margin-top: 5%;
   font-size: 50px;
+  width: 100%;
 }
 h2 {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
@@ -52,20 +91,13 @@ p {
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
-  width: 960px;
+  display: inline-flexbox;
+  flex-wrap: wrap;
+  width: 100%;
 }
 main > aside > figure {
   float: right;
   margin-right: 195px;
-}
-table {
-  border: 5px solid #548c8b;
-}
-th {
-  border: 1px dotted #548c8b;
-}
-td {
-  border: 1px dotted #548c8b;
 }
 blockquote,
 dd {
@@ -85,20 +117,64 @@ picture {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-  float: inline-start;
-  clear: left;
+  clear: both;
 }
 a {
   color: #a69856;
 }
-@media (min-width: 20rem) {
-  body {
-    font-size: calc(1rem + 0.00625 * (100vw - 20rem));
+@media screen and (max-width: 400px) {
+  .flow {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .navbar {
+    font-size: 18px;
   }
 }
-@media (min-width: 40rem) {
-  body {
-    font-size: 1.125rem;
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 10vw;
+  }
+
+  .subtitle {
+    font-size: 6vw;
+    width: auto;
+  }
+
+  .navbar {
+    font-size: 6vw;
+  }
+  .navbar ul li {
+    display: flex;
+    flex-direction: column;
+  }
+  .one-third {
+    width: calc(98%-20px);
+  }
+  p {
+    font-size: 3vw;
+    width: 100%;
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .one-third {
+    width: calc(33% - 20px);
+  }
+  .nav-toggle-label {
+    display: none;
+  }
+  .navbar {
+    display: inline-block;
   }
 }
 article {
@@ -112,4 +188,11 @@ a:hover {
   color: #525559;
   background-color: #a69856;
   text-decoration: underline;
+}
+.one-third {
+  margin: 20px 10px;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
 }

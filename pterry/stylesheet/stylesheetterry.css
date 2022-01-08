@@ -1,12 +1,27 @@
 html {
   font-family: "Libre Baskerville", serif;
 }
+main {
+  background-color: #191726;
+}
 
 h1 {
   font-family: "Libre Baskerville", serif;
   font-size: x-large;
+  color: #73542f;
+}
+h2,
+h3 {
+  color: #73542f;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
+  color: #1f4e8c;
+}
+body {
+  background-color: #191726;
+}
+a {
+  color: #bfae7a;
 }

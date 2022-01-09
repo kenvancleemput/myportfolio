@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 html {
   font-family: "Zen Antique Soft", serif;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
@@ -91,7 +86,7 @@ p {
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
-  display: inline-flexbox;
+  display: flex;
   flex-wrap: wrap;
   width: 100%;
   line-height: 125%;
@@ -117,13 +112,13 @@ img,
 picture {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: auto;
   clear: both;
 }
 a {
   color: #a69856;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .flow {
     display: flex;
     flex-direction: column;
@@ -139,9 +134,16 @@ a {
   .navbar {
     font-size: 18px;
   }
+  .half {
+    display: flexbox;
+    width: calc(98%-20px);
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .flow {
+  }
   .title {
     font-size: 10vw;
   }
@@ -158,19 +160,18 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .one-third {
+  .half {
     display: flexbox;
     width: calc(98%-20px);
   }
   p {
     font-size: 3vw;
-    width: 100%;
-    margin: 0%;
   }
 }
 @media screen and (min-width: 800px) {
-  .one-third {
-    width: calc(33% - 20px);
+  .half {
+    display: flex;
+    width: 45%;
   }
   .nav-toggle-label {
     display: none;
@@ -196,5 +197,9 @@ a:hover {
 }
 .container {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+}
+.container.text {
+  display: flex;
+  flex-direction: row;
 }

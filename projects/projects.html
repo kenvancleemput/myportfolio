@@ -8,47 +8,99 @@
   />
   <link rel="stylesheet" href="../stylesheets/projectstyle.css" />
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ken Van Cleemput Projecten</title>
 </head>
 <body>
   <header>
     <h1>Projecten</h1>
-    <nav>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+    <nav class="navbar">
       <ul>
-        <li><a href="../index.html">Over Mij</a></li>
-        <li><a href="projects.html">Projecten</a></li>
-        <li><a href="../werkplekleren/werkplekleren.html">Werkplekleren</a></li>
+        <li><a href="../index.html">Landing Page</a></li>
+        <li><a href="../aboutme/aboutme">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li>
+          <a href="../werkplekleren/werkplekleren.html">Workplace Studies</a>
+        </li>
         <li><a href="../contacts/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <article class="one-third">
-      <a href="buildacity.html"
-        ><h2>Build-A-City</h2>
-        <figure><img src="../images/BACbookmark.png" alt="beeld BAC" /></figure>
-        <p>
-          A school project where we worked in teams using SCRUM methods to
-          design an island for our benevolent dictator.
-        </p></a
-      >
-    </article>
-    <article class="one-third">
-      <a href="kenetic.html"
-        ><h2>Kenetic & The Dagda</h2>
-        <figure><img src="../images/thedagda.jpg" alt="" /></figure>
-        <p>
-          A look back at the 1990's and early 2000's (yes, I'm that old) and my
-          DJ-career at that time.
-        </p></a
-      >
-    </article>
-    <article class="one-third">
-      <a href="psywaves.html"
-        ><h2>Psywaves</h2>
-        <figure><img src="../images/psywaves1.jpg" alt="flyer" /></figure>
-        <p>A party organisation I used to be a part of</p></a
-      >
-    </article>
+    <div class="container">
+      <h2>School Projects</h2>
+      <article class="one-third">
+        <a href="buildacity.html"
+          ><h3>Build-A-City</h3>
+          <figure>
+            <img
+              class="center"
+              src="../images/BACbookmark.png"
+              alt="beeld BAC"
+            />
+          </figure>
+          <p>
+            A school project where we worked in teams using SCRUM methods to
+            design an island for our benevolent dictator.
+          </p></a
+        >
+      </article>
+      <article class="one-third">
+        <a href="#"
+          ><h3>Dungeon Crawl</h3>
+          <figure>
+            <img class="center" src="../images/DCbm.png" alt="DC" />
+          </figure>
+          <p>
+            A not so simple text based game I wrote in Java for object oriented
+            programming.
+          </p></a
+        >
+      </article>
+      <article class="one-third">
+        <a href="../pterry/indexpterry.html"
+          ><h3>Theme site</h3>
+          <figure>
+            <img
+              class="center"
+              src="../images/Dark-Side-of-the-Turtle-Canvas-e1626619288368.png"
+              alt=""
+            />
+          </figure>
+          <p>
+            A theme site I had to write and design for responsive design.
+            Currently not online while I await permission from Paul Kidby and
+            Narrativium LLC for the use of the images. This image is also &copy
+            Paul Kidby and Narrativium LLC.
+          </p></a
+        >
+      </article>
+      <h2>Private Projects</h2>
+      <article class="half">
+        <a href="kenetic.html"
+          ><h3>Kenetic & The Dagda</h3>
+          <figure>
+            <img class="center" src="../images/thedagda.jpg" alt="" />
+          </figure>
+          <p>
+            A look back at the 1990's and early 2000's (yes, I'm that old) and
+            my DJ-career at that time.
+          </p></a
+        >
+      </article>
+      <article class="half">
+        <a href="psywaves.html"
+          ><h3>Psywaves</h3>
+          <figure>
+            <img class="center" src="../images/psywaves1.jpg" alt="flyer" />
+          </figure>
+          <p>A party organisation I used to be a part of</p></a
+        >
+      </article>
+    </div>
   </main>
 </body>

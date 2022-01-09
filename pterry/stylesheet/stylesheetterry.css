@@ -23,5 +23,43 @@ body {
   background-color: #191726;
 }
 a {
+  color: #73542f;
+}
+.navbar-toggler {
+  background-color: #73542f;
+  }
+
+}
+
+.nav-item {
+  color: #73542f;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar{
+    margin-left: -10px;
+  }
+  .nav-item{
+    color: #73542f;
+  }
+  
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav{
+    margin-left: -25px;
+  }
+  .nav-item{
+    color: #73542f;
+  }
+  .nav-item:focus,
+.nav-item:hover {
   color: #bfae7a;
+}
+blockquote{
+  color: cornflowerblue;
 }

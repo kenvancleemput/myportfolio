@@ -30,7 +30,6 @@ a {
   }
 
 }
-
 .nav-item {
   color: #73542f;
 }
@@ -62,4 +61,8 @@ a {
 }
 blockquote{
   color: cornflowerblue;
+}
+}
+footer > p {
+ font-size: small;
 }

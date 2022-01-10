@@ -196,9 +196,6 @@ a {
   }
 }
 @media screen and (min-width: 800px) {
-  .container {
-    grid-template-areas: "paragraph1 paragraph2";
-  }
   .nav-toggle-label {
     display: none;
   }

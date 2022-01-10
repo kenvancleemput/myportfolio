@@ -89,31 +89,14 @@ p {
   flex-wrap: wrap;
   line-height: 125%;
 }
-main > aside > figure {
-  float: right;
-  margin-right: 195px;
-}
-blockquote,
-dd {
-  margin: auto;
-  width: fit-content;
-}
-dd {
-  margin-bottom: 1em;
-  margin-left: 0;
-}
-dt {
-  font-weight: 700;
-}
+
 .container {
   display: grid;
-  width: 90%;
+  width: 98%;
   gap: 3vw;
   grid-template-areas:
     "paragraph1"
-    "paragraph2"
-    "paragraph3"
-    "paragraph4";
+    "paragraph2";
 }
 a {
   color: #a69856;
@@ -168,8 +151,10 @@ a {
 }
 @media screen and (min-width: 800px) {
   .container {
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "paragraph1 paragraph2";
   }
+
   .nav-toggle-label {
     display: none;
   }

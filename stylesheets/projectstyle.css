@@ -125,8 +125,11 @@ a:hover {
     margin: 0%;
     padding-top: 3%;
   }
+  .container {
+    flex-direction: column;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .title {
     font-size: 10vw;
   }
@@ -154,6 +157,22 @@ a:hover {
     margin: 0%;
     padding-top: 3%;
   }
+  .container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .one-third,
+  .half {
+    width: fit-content;
+  }
+  .one-third < a {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .container {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 800px) {
   .one-third {
@@ -180,4 +199,7 @@ p {
 }
 h3 {
   text-align: center;
+}
+.container {
+  display: flex;
 }

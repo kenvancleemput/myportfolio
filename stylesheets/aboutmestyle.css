@@ -95,8 +95,9 @@ main > aside > figure {
 }
 blockquote,
 dd {
+  display: grid;
   margin: auto;
-  width: fit-content;
+  text-align: center;
 }
 dd {
   margin-bottom: 1em;
@@ -113,12 +114,31 @@ dt {
     "paragraph1"
     "paragraph2"
     "paragraph3"
-    "paragraph4";
+    "paragraph4"
+    "quote";
+}
+.paragraph1 {
+  grid-area: paragraph1;
+}
+.paragraph2 {
+  grid-area: paragraph2;
+}
+.paragraph3 {
+  grid-area: paragraph3;
+}
+.paragraph4 {
+  grid-area: paragraph4;
+}
+.quote {
+  grid-area: quote;
 }
 a {
   color: #a69856;
 }
 @media screen and (max-width: 600px) {
+  .quote {
+    text-align: center;
+  }
   .title {
     font-size: 8vw;
   }
@@ -136,7 +156,10 @@ a {
     min-width: 80%;
     grid-template-areas:
       "paragraph1"
-      "paragraph2";
+      "paragraph2"
+      "paragraph3"
+      "paragraph4"
+      "quote";
   }
 }
 
@@ -159,11 +182,17 @@ a {
   }
   .container {
     grid-template-areas:
-      "paragraph1 "
-      "paragraph2";
+      "paragraph1"
+      "paragraph2"
+      "paragraph3"
+      "paragraph4"
+      "quote";
   }
   p {
     font-size: 3vw;
+  }
+  .quote {
+    text-align: center;
   }
 }
 @media screen and (min-width: 800px) {
@@ -175,6 +204,16 @@ a {
   }
   .navbar {
     display: inline-block;
+  }
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "paragraph1 paragraph3"
+      "paragraph2 paragraph4"
+      "quote quote";
+  }
+  .quote {
+    width: 80%;
   }
 }
 article {

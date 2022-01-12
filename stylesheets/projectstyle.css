@@ -1,8 +1,8 @@
 html {
   font-family: "Zen Antique Soft", serif;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-  background-color: #525559;
-  color: #d9ca82;
+  background-color: #191726;
+  color: cornflowerblue;
 }
 .nav-toggle {
   display: none;
@@ -17,7 +17,7 @@ html {
 .nav-toggle-label::before,
 .nav-toggle-label::after {
   display: block;
-  background: #a69856;
+  background: cornflowerblue;
   height: 2px;
   width: 2em;
 }
@@ -74,7 +74,6 @@ h1 {
 }
 h2 {
   text-align: center;
-  text-decoration: underline;
 }
 article {
   display: inline-block;
@@ -90,20 +89,20 @@ article {
 .half > a,
 .half > p {
   text-decoration: none;
-  color: #a69856;
+  color: cornflowerblue;
 }
 .one-third:focus,
 .one-third:hover,
 .half:focus,
 .half:hover {
-  color: #525559;
-  background-color: #a69856;
+  color: #191726;
+  background-color: cornflowerblue;
   text-decoration: underline;
 }
 a:focus,
 a:hover {
-  color: #525559;
-  background-color: #a69856;
+  color: #191726;
+  background-color: cornflowerblue;
   text-decoration: underline;
 }
 .mainnav {
